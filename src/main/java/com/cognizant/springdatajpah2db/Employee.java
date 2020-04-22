@@ -96,5 +96,10 @@ public class Employee {
 				+ ", dateOfBirth=" + dateOfBirth + "]";
 	}
 
+	public Employee(Long id) {
+		super();
+		this.id = id;
+	}
+
 	
 }
